@@ -11,6 +11,5 @@ input = gets.strip
 
 index = input_to_index(input)
 
-board[index] = "X"
 
-display_board(board)
+display_board(move(board, 2, "X"))
